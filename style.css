@@ -1,0 +1,73 @@
+*::-moz-selection {
+    background: #f6b20e none repeat scroll 0 0;
+    color: #fff;
+}
+::-moz-selection { background: #64bb67; color:#fff; text-shadow: none; }
+::selection { background:#64bb67; color:#fff; text-shadow: none; }
+
+html, body {
+    background:#fff;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 30px;
+    overflow-x:hidden;
+    position:relative;
+    font-weight:300;
+}
+
+section {
+    clear: both;
+    padding-top: 10%;
+    color: #fff;
+}
+
+section#main {
+    background: hsl(220, 93%, 6%);
+    padding-bottom: 0;
+    position: relative;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 66px;
+}
+h2 {
+    font-size: 46px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 26px;
+}
+h6 {
+    font-size: 22px;
+}
+
+p {
+    font-size:16px;
+    color:#585858;
+    line-height:27px;
+}
+
+a.direct-download-button {
+    background: #f6b20e;
+    border: 0 none;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 1px 1px 1px hsl(0, 0%, 0%);
+}
+
+a.direct-download-button:hover {
+    background: #f6b20e;
+    color: hsl(0, 0%, 100%);
+}
+
